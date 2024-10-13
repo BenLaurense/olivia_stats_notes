@@ -2,9 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import norm, rv_continuous
 
-# Helpers for plotting histograms of sample means and normal approximations
-# All helpers expect a type implementing the methods: mean, var, rvs
-# CBA to create an interface or smth!
+"""Helper functions for the Central Limit Theorem.ipynp notebook
+All helpers expect a type implementing the methods: mean, var, rvs"""
 
 BINS = 20
 EDGECOLOUR = "black"
